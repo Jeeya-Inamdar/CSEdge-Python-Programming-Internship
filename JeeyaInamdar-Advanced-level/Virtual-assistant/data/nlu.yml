@@ -1,0 +1,76 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good evening
+      - hey there
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - catch you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - never
+      - I don't think so
+      - don't like that
+
+  - intent: mood_great
+    examples: |
+      - I am feeling great
+      - I am very good
+      - I am doing great
+      - I feel awesome
+      - excellent
+
+  - intent: mood_unhappy
+    examples: |
+      - sad
+      - very sad
+      - unhappy
+      - bad
+      - not good
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: open_app
+    examples: |
+      - open [notepad](app)
+      - start [calculator](app)
+      - open [browser](app)
+      - launch [notepad](app)
+
+  - lookup: app
+    examples: |
+      - notepad
+      - calculator
+      - browser
+
+  - intent: search_web
+    examples: |
+      - search for [weather in New York](query)
+      - look up [Python tutorials](query)
+      - find [best pizza places in Chicago](query)
+      - search [latest news](query)

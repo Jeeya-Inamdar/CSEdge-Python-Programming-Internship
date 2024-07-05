@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-app",
+      "2": "I-app",
+      "3": "L-app",
+      "4": "U-app",
+      "5": "B-query",
+      "6": "I-query",
+      "7": "L-query",
+      "8": "U-query",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-app": 1,
+      "I-app": 2,
+      "L-app": 3,
+      "U-app": 4,
+      "B-query": 5,
+      "I-query": 6,
+      "L-query": 7,
+      "U-query": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

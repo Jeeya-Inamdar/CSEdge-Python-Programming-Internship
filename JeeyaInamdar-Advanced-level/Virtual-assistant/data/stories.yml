@@ -1,0 +1,63 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
+
+  - story: sad path 1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
+
+  - story: sad path 2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
+
+  - story: greet and open app
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: open_app
+      - action: action_open_app
+
+  - story: open app directly
+    steps:
+      - intent: open_app
+      - action: action_open_app
+
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: greet and search web
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: search_web
+      - action: action_search_web
+
+  - story: search web directly
+    steps:
+      - intent: search_web
+      - action: action_search_web

@@ -1,0 +1,6 @@
+[
+  {
+    "name": "app",
+    "pattern": "(\\bnotepad\\b|\\bcalculator\\b|\\bbrowser\\b)"
+  }
+]
