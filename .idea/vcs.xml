@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSEdge-Python-Programming-Internship" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/JeeyaInamdar-Advanced-level/ecommerce-django-stripe" vcs="Git" />
   </component>
 </project>
